@@ -5,20 +5,18 @@ A script for getting the information about baseline of web fonts
 ```javascript
 var baseline = getBaseline(font, sizeRange, elem);
 ```
-**font**
-Type: string
-Default: Computed font family of the element
-A string of font family.
-
-**sizeRange**
-Type: array
-Default: `[11, 110]`
-An array has min and max font size `[min, max]` or one font size `[n]`
-
-**elem**
-Type: element
-Default: document.body
-The element of the document at which the test should be done.
+- **font**  
+   Type: string  
+   Default: Computed font family of the element  
+   A string of font family.
+- **sizeRange**  
+   Type: array  
+   Default: `[11, 110]`  
+   An array has min and max font size `[min, max]` or one font size `[n]`
+- **elem**  
+   Type: element  
+   Default: document.body  
+   The element of the document at which the test should be done.
 
 ### Basic
 **JS**
