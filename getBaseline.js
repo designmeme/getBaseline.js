@@ -74,7 +74,7 @@
 
     return {
       'font-family': font,
-      'font-size-rage': sizeRange,
+      'font-size-range': sizeRange,
       'baseline-ratio': mean(ratioList) + meanAbsoluteDeviation(ratioList),
       'data': data
     };

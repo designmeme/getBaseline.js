@@ -27,7 +27,7 @@ var baseline = getBaseline();
 ```json
 {
   "font-family": "Apple SD Gothic Neo",
-  "font-size-rage": [
+  "font-size-range": [
     11,
     110
   ],
@@ -59,7 +59,7 @@ var baseline = getBaseline('Times New Roman');
 ```json
 {
   "font-family": "Times New Roman",
-  "font-size-rage": [
+  "font-size-range": [
     11,
     110
   ],
@@ -98,7 +98,7 @@ WebFont.load({
 ```json
 {
   "font-family": "Droid Sans",
-  "font-size-rage": [
+  "font-size-range": [
     11,
     110
   ],
@@ -130,7 +130,7 @@ var baseline = getBaseline(null, [76]);
 ```json
 {
   "font-family": "Apple SD Gothic Neo",
-  "font-size-rage": [
+  "font-size-range": [
     76
   ],
   "baseline-ratio": 0.21052631578947367,
@@ -159,7 +159,7 @@ var baseline = getBaseline(null, null, elem);
 ```json
 {
   "font-family": "Georgia",
-  "font-size-rage": [
+  "font-size-range": [
     11,
     110
   ],
