@@ -1,5 +1,5 @@
 /*!
- * getBaseline.js v0.1.0
+ * getBaseline.js v0.1.1
  *
  * Released under the MIT Licence
  * https://github.com/designmeme/getBaseline.js/blob/master/LICENSE
@@ -50,8 +50,8 @@
       baselineRatio = baselineHeight / size;
       data.push({
         'font-size': size + 'px',
-        'baseline-offset': span.offsetTop,
-        'baseline-height': baselineHeight,
+        'baseline-offset': span.offsetTop + 'px',
+        'baseline-height': baselineHeight + 'px',
         'baseline-ratio': baselineRatio
       });
       ratioList.push(baselineRatio);
