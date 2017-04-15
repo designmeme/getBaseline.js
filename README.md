@@ -35,15 +35,15 @@ var baseline = getBaseline();
   "data": [
     {
       "font-size": "11px",
-      "baseline-offset": 9,
-      "baseline-height": 2,
+      "baseline-offset": "9px",
+      "baseline-height": "2px",
       "baseline-ratio": 0.18181818181818182
     },
     ...
     {
       "font-size": "110px",
-      "baseline-offset": 88,
-      "baseline-height": 22,
+      "baseline-offset": "88px",
+      "baseline-height": "22px",
       "baseline-ratio": 0.2
     }
   ]
@@ -67,15 +67,15 @@ var baseline = getBaseline('Times New Roman');
   "data": [
     {
       "font-size": "11px",
-      "baseline-offset": 9,
-      "baseline-height": 2,
+      "baseline-offset": "9px",
+      "baseline-height": "2px",
       "baseline-ratio": 0.18181818181818182
     },
     ...
     {
       "font-size": "110px",
-      "baseline-offset": 92,
-      "baseline-height": 18,
+      "baseline-offset": "92px",
+      "baseline-height": "18px",
       "baseline-ratio": 0.16363636363636364
     }
   ]
@@ -106,8 +106,8 @@ WebFont.load({
   "data": [
     {
       "font-size": "11px",
-      "baseline-offset": 9,
-      "baseline-height": 2,
+      "baseline-offset": "9px",
+      "baseline-height": "2px",
       "baseline-ratio": 0.18181818181818182
     },
     ...
@@ -167,15 +167,15 @@ var baseline = getBaseline(null, null, elem);
   "data": [
     {
       "font-size": "11px",
-      "baseline-offset": 9,
-      "baseline-height": 2,
+      "baseline-offset": "9px",
+      "baseline-height": "2px",
       "baseline-ratio": 0.18181818181818182
     },
     ...
     {
       "font-size": "110px",
-      "baseline-offset": 93,
-      "baseline-height": 17,
+      "baseline-offset": "93px",
+      "baseline-height": "17px",
       "baseline-ratio": 0.15454545454545454
     }
   ]
