@@ -113,8 +113,8 @@ WebFont.load({
     ...
     {
       "font-size": "110px",
-      "baseline-offset": 93,
-      "baseline-height": 17,
+      "baseline-offset": "93px",
+      "baseline-height": "17px",
       "baseline-ratio": 0.15454545454545454
     }
   ]
@@ -137,8 +137,8 @@ var baseline = getBaseline(null, [76]);
   "data": [
     {
       "font-size": "76px",
-      "baseline-offset": 60,
-      "baseline-height": 16,
+      "baseline-offset": "60px",
+      "baseline-height": "16px",
       "baseline-ratio": 0.21052631578947367
     }
   ]
