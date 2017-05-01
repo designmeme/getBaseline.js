@@ -183,10 +183,7 @@ var baseline = getBaseline(null, null, elem);
 ```
 
 ## Browser Support
-todo
-[] 브라우저 서포트 체크
-[] 브라우저 마다 값이 다른 것을 알려줌
-[] 관련 포스트 링크
+
 
 ## Copyright and license
 
